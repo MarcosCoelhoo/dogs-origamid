@@ -1,0 +1,43 @@
+.form {
+  margin-bottom: 2rem;
+}
+
+.lost {
+  display: inline-block;
+  color: #666;
+  padding: .5rem 0;
+  line-height: 1;
+}
+
+.lost::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: currentColor;
+  display: block;
+}
+
+.subscribe {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.subscribe p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.subtitle {
+  font-family: var(--type-second);
+  line-height: 1;
+  font-size: 2rem;
+}
+
+.subtitle::after {
+  content: '';
+  display: block;
+  background: #ddd;
+  height: .5rem;
+  width: 3rem;
+  border-radius: .2rem;
+}
